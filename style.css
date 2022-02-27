@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    margin: 5rem auto;
+    width: 20%;
+    height: auto;
+    background-color: brown;
+    float: left;
+    visibility: hidden;
+}
+header ul{
+    display: flex;
+    gap: 85%;
+    align-items: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    background-color: red;
+    color: white;
+}
+.fa-bars{
+    margin-right: 1rem;
+}
+.fa-bars:hover{
+    color: red;
+    background-color: white;
+}
+.fa-brands{
+    color: blue;
+}
+.fa-thumbs-up{
+    background-color: blue;
+    color: white;
+}
+section{
+    margin-top: 5rem;
+    padding-right: 3rem;
+    width: 50%;
+    text-align: justify;
+    line-height: 2rem; 
+    border-right: solid brown;
+    float: left;
+}
+h1{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+.social_buttons{
+    text-align: center;
+    word-spacing: 5rem;
+    letter-spacing: 0.5rem;
+    margin: 1rem;
+}
+button{
+    border-radius: 10px;
+
+}
+.ads{
+    width: 30%;
+    height: auto;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+footer{
+    background-color: red;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+footer > ul{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    
+}
