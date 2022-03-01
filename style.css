@@ -15,11 +15,18 @@ nav{
     visibility: hidden;
 }
 nav ul{
-    position: absolute;
+    padding-left: 5px;
     display: flex;
     flex-direction: column;
+    line-height: 2;
     justify-content: space-between;
 } 
+nav li{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    border-top: solid white;
+}
 header ul{
     display: flex;
     gap: 85%;
