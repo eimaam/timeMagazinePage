@@ -8,11 +8,18 @@ body{
 nav{
     margin: 5rem auto;
     width: 20%;
-    height: auto;
+    height: 100vh;
     background-color: brown;
     float: left;
+    margin-right: 1rem;
     visibility: hidden;
 }
+nav ul{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
 header ul{
     display: flex;
     gap: 85%;
@@ -54,7 +61,7 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2rem;
     margin-top: 1rem;
-    margin-bottom: 0;
+    margin-bottom: 0%;
 }
 .social_buttons{
     text-align: center;
